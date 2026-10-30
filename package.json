@@ -1,0 +1,31 @@
+{
+  "name": "safeddl",
+  "version": "1.0.0",
+  "description": "Zero-Lock Postgres Migration Assistant. Transpiles table-locking DDL into non-blocking 3-phase migrations.",
+  "main": "lib/parser.mjs",
+  "type": "module",
+  "bin": {
+    "safeddl": "./bin/safeddl.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/safeddl.test.mjs"
+  },
+  "keywords": [
+    "postgres",
+    "postgresql",
+    "database",
+    "migrations",
+    "ddl",
+    "zero-downtime",
+    "table-lock",
+    "active-record",
+    "prisma",
+    "typeorm",
+    "kysely"
+  ],
+  "author": "Venture Lab",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
